@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3FFFF"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".ExampleDialogFragment">
+
+    <TextView
+        android:id="@+id/tvHello"
+        android:gravity="center"
+        android:textSize="21sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:id="@+id/btnTutup"
+        android:layout_gravity="center"
+        android:text="Tutup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
